@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias</title>
+</head>
+<body>
+    <h1>Imagem Dinâmica</h1>
+    <p>Tente abrir esse site em varias dispositivos
+        ou simplesmente aumente e diminua de tamanho
+        no seu navegaodor
+    </p>
+    <picture>
+        <source media="(max-width:750px)" srcset="imagens/foto-m.png">
+        <source media="(max-width:1050px)" srcset="imagens/foto-p.png">
+        <img src="imagens/foto-g.png" alt="Imagem flexivel">
+    </picture>
+    <h1>Reproduzindo aúdio</h1>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="media/lofi.mp3">
+    </audio>
+    <!--MP3 WAV OGG-->
+</body>
+</html>
