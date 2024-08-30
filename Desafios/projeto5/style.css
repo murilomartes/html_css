@@ -1,0 +1,30 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Cordel';
+    src: url("Fontes/Core\ Sans\ NR\ W01\ SC\ 97\ Cn\ Black.ttf");
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+header h1{
+    padding: 20px;
+    font-family: "Cordel";
+    font-weight: normal;
+    font-size: 3.2em;
+} 
+header p{
+    padding-bottom: 20px;
+}
+
+main p {
+    font-family: ;
+}
+
